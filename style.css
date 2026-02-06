@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(250, 190, 116);
+  align-items: center;
+  font-style: italic;
+}
+
+h1 {
+  color: rgb(88, 56, 17);
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.catalogo {
+  display: flex;
+  gap: 2rem;
+  padding: 20px;
+}
+
+main {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  background-color: rgb(250, 190, 116);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+section {
+  background-color: rgb(247, 225, 197);
+  border: 2px solid salmon;
+  padding-bottom: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.gatos {
+  padding: 1rem;
+  width: 18rem;
+  background-color: rgb(238, 207, 241);
+  border-radius: 10px;
+}
+
+.gatos img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 20px;
+}
+
+h3 {
+  color: rgb(158, 97, 16);
+}
+
+.lista-gatos {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+
+.sidebar {
+  display: block;
+}
+
+.sidebar li {
+  padding: 15px 0;
+}
+
+aside h3 {
+  color: rgb(73, 32, 32);
+  font-size: 25px;
+}
+
+a {
+  color: rgb(126, 63, 40);
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: burlywood;
+  padding: 25px;
+}
+
+.gatos-texto {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
